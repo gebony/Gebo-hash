@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 335
+  Height = 133
+  Top = 300
+  Width = 398
+  BorderStyle = bsSingle
+  Caption = 'Gebo hash'
+  ClientHeight = 133
+  ClientWidth = 398
+  LCLVersion = '2.0.0.4'
+  object Button1: TButton
+    Left = 312
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Exit'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 19
+    Height = 27
+    Top = 23
+    Width = 293
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 312
+    Height = 26
+    Top = 24
+    Width = 75
+    Caption = 'open file'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 232
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'about'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 152
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'compare'
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Edit2: TEdit
+    Left = 19
+    Height = 27
+    Top = 56
+    Width = 294
+    TabOrder = 5
+  end
+  object OpenDialog1: TOpenDialog
+    left = 48
+    top = 104
+  end
+end

@@ -1,0 +1,21 @@
+object Form2: TForm2
+  Left = 360
+  Height = 161
+  Top = 282
+  Width = 314
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'about Gebo'
+  ClientHeight = 161
+  ClientWidth = 314
+  OnCreate = FormCreate
+  LCLVersion = '2.0.0.4'
+  object Label1: TLabel
+    Left = 9
+    Height = 136
+    Top = 15
+    Width = 301
+    Caption = 'Gebo hash  is a hash program by Ahmed jibril '#10'from Atom developing office.'#10#10'Egypt'#10#10#10'keep in touch :'#10'https://www.facebook.com/gebo.thekicker'
+    ParentColor = False
+  end
+end
